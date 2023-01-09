@@ -60,3 +60,13 @@ function getAverage(marks) {
 // #5
 // THE SOUL OF WIT: REVERSE AN ARRAY
 // https://www.codewars.com/kata/59b81886460387d8fc000043
+
+// function reverse(arr) {
+//   let arrReversed = [];
+//   for (let i = arr.length - 1; i > -1; i--) {
+//     arrReversed.push(arr[i]);
+//   }
+//   return arrReversed;
+// }
+// Too long by 7 characters/bytes, but it was all I could find :^(
+const reverse = (a) => a.map(a.pop, [...a]);
