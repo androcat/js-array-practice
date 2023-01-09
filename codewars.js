@@ -14,6 +14,14 @@ var number = function (array) {
 // Filling an array (part 1)
 // https://www.codewars.com/kata/571d42206414b103dc0006a1/train/javascript
 
+const arr = function (N) {
+  const array = [];
+  for (let i = 0; i < N; i++) {
+    array.push(i);
+  }
+  return array;
+};
+
 // # 3
 // Drone Fly-By
 // https://www.codewars.com/kata/58356a94f8358058f30004b5/train/javascript
